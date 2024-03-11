@@ -20,7 +20,7 @@ body {
     background-color: var(--almost-white);
 }
 
-body.menu-open::before {
+body.escurecer::before {
     content: "";
     position: relative;
     height: 100vh;
@@ -71,7 +71,14 @@ body.menu-open::before {
     flex-direction: column;
     padding: 1.5rem;
     gap: 1,5rem;
+
+    transition: 0.7s;
   
+}
+
+.header-mobile nav.abrir{
+    right: 0;
+
 }
 
 .primeira-seçao{
